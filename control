@@ -1,0 +1,9 @@
+Package: com.ryannair05.medousa
+Name: Medousa
+Depends: mobilesubstrate
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: Bring the iPad style dock to the iPhone
+Maintainer: Ryan Nair
+Author: Ryan Nair
+Section: Tweaks
