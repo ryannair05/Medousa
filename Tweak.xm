@@ -101,7 +101,7 @@ static void loadPrefs() {
     @autoreleasepool {
         loadPrefs();
         BSPlatform *platform = [NSClassFromString(@"BSPlatform") sharedInstance];
-	    if ((platform.homeButtonType == 1) && wantsgesture) %init(unsupported);
-        else %init(_ungrouped);
+	if ((platform.homeButtonType == 1) && wantsgesture) %init(unsupported);
+       	else %init(_ungrouped);
 	}
 }
